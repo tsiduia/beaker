@@ -1,5 +1,5 @@
 module Beaker
-  class VBox < Beaker::Hypervisor
+  class Vbox < Beaker::Hypervisor
 
     def initialize(vbox_hosts, options)
       require 'rubygems' unless defined?(Gem)
